@@ -1,4 +1,4 @@
-# CSCI-653 Project
+### CSCI-653 Project
 # Bicontinuous Structure Based on Leveled Field Method and Geometric Measurement
 - This project aims to generate periodic or non periodic bicontinuous atomistic sample in arbitary parallelpiped, and to measure the geometric characteristic value, especially the ligament size. 
 

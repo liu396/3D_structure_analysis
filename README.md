@@ -7,7 +7,7 @@ Chang Liu (liu396@usc.edu)
 Suyue Yuan (suyueyua@usc.edu)
 
 ### Problem Description
-- Project any 3D structure obtained from experiments, in the form of voxel, VTK file or others, into structure at atomic scale with desired crystal lattice. 
+- Project any 3D structure obtained from experiments, in the form of voxel, or surface mesh file, into structure at atomic scale with desired crystal lattice. 
 - Use MD simulation to relax and perform mechanical tests on it.
 - Analyze the morphology including curvatures, normals and genus, change after the simulation. 
    

@@ -15,7 +15,7 @@ Suyue Yuan (suyueyua@usc.edu)
 - Atomic Structure is seperated into surface atoms and internal atoms.
 - Normal direction can be found summing all the vectors pointing from internal atoms around certain surface atoms within a cutoff.  
 - Normal direction can be used to evaluate how many atoms needed to measure curvature.  
-- Curvatures are found by fitting a bivariate [] or a quadratic surface []. 
+- Curvatures are found by fitting a bivariate [1] or a quadratic surface [2]. 
 - Genus is calculated from faces and edges of surface mesh. 
 - Paralled computing can achieved by spatial decomposition.
 
@@ -33,10 +33,6 @@ Suyue Yuan (suyueyua@usc.edu)
 4. Genus 
 
 ### Reference
-[1]: Lee, Ta-Chih, Rangasami L. Kashyap, and Chong-Nam Chu. "Building skeleton models via 3-D medial surface axis thinning algorithms." CVGIP: Graphical Models and Image Processing 56.6 (1994): 462-478.
+[1]: Yokoya, N. and Levine, M.D., 1989. Range image segmentation based on differential geometry: A hybrid approach. IEEE Transactions on Pattern Analysis and Machine Intelligence, 11(6), pp.643-649.
 
-[2]: Stuckner, Joshua, et al. "AQUAMI: An open source Python package and GUI for the automatic quantitative analysis of morphologically complex multiphase materials." Computational Materials Science 139 (2017): 320-329.
-
-[3]: Soyarslan, Celal, et al. "3D stochastic bicontinuous microstructures: Generation, topology and elasticity." Acta materialia 149 (2018): 326-340.
-
-[4]: Liu, Chang, and Paulo S. Branicio. "Efficient generation of non-cubic stochastic periodic bicontinuous nanoporous structures." Computational Materials Science 169 (2019): 109101.
+[2]: Groshong, B., Bilbro, G. and Snyder, W., 1989. Fitting a Quadratic Surface to Three Dimensional Data.

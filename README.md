@@ -23,6 +23,8 @@ Suyue Yuan (suyueyua@usc.edu)
 1. Atomic structures from experiments.
 
 ![Image of a porous rock](https://github.com/liu396/CS653/blob/master/zhazha.jpg | width="400" height="790")
+![Image of the projected atomic structure](https://github.com/liu396/CS653/blob/master/zhazha.png){:class="img-responsive"}
+![Image of the projected atomic structure](https://github.com/liu396/CS653/blob/master/zhazha.png){:height="50%" width="50%"}
 ![Image of the projected atomic structure](https://github.com/liu396/CS653/blob/master/zhazha.png){:height="50%" width="50%"}
 
 2. Normal direction distribution of structure. 

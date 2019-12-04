@@ -21,9 +21,13 @@ Suyue Yuan (suyueyua@usc.edu)
 
 ### Expected Results
 1. Atomic structures from experiments.
+
+![Image of nanoporous structure](https://github.com/liu396/CS653/blob/master/45%25_40_10.png)
+
 2. Normal direction distribution of structure. 
+
 3. Principle curvature distribution of structure.
-![Image of nanoporous structure](https://github.com/liu396/CS653/blob/master/45RD_matrix.png)
+![Image of Curvature](https://github.com/liu396/CS653/blob/master/45RD_matrix.png)
 4. Genus 
 
 ### Reference

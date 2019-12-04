@@ -24,6 +24,7 @@ Suyue Yuan (suyueyua@usc.edu)
 
 ![Image of nanoporous structure]
 (https://github.com/liu396/CS653/blob/master/45RD_matrix.pdf)
+
 2. Normal direction distribution of structure. 
 3. Principle curvature distribution of structure.
 4. Genus 

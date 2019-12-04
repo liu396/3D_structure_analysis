@@ -22,7 +22,8 @@ Suyue Yuan (suyueyua@usc.edu)
 ### Expected Results
 1. Atomic structures from experiments.
 
-![Image of nanoporous structure](https://github.com/liu396/CS653/blob/master/45%25_40_10.png)
+![Image of a porous rock](https://github.com/liu396/CS653/blob/master/zhazha.jpg)
+![Image of the projected atomic structure](https://github.com/liu396/CS653/blob/master/zhazha.png)
 
 2. Normal direction distribution of structure. 
 

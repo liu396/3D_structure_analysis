@@ -26,6 +26,8 @@ Suyue Yuan (suyueyua@usc.edu)
 
 2. Normal direction distribution of structure. 
 
+![Image of Normal](https://github.com/liu396/CS653/blob/master/xy_frame0.pdf)
+
 3. Principle curvature distribution of structure.
 ![Image of Curvature](https://github.com/liu396/CS653/blob/master/45RD_matrix.png)
 4. Genus 

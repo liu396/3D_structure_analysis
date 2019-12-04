@@ -1,25 +1,29 @@
 # CSCI-653 Project
-## Bicontinuous Structure Based on Leveled Field Method and Geometric Measurement
-- This project aims to generate periodic or non periodic bicontinuous atomistic sample in arbitary parallelpiped, and to measure the geometric characteristic value, especially the ligament size. 
+## 3D Atomic Structure Projection, MD Simulation and Analysis
+- This project aims to measure the geometric characteristic value, curvatures, normals and genus of atomic structure after MD simulation. 
 
 ## **Project Member** ##
 Chang Liu (liu396@usc.edu)
 Suyue Yuan (suyueyua@usc.edu)
 
 ### Problem Description
-There exists several methods to model of bicontinuous structure, such as Phase Field and Kinetic Monte Carlos methods. These simulation based methods usually need considerable computational resourses and time. This project aims to implement a direct method based on Cahn's original idea and the following work [3-4]. The atomistic structure generated with this user friendly code can reside in cubic or other arbitary parallelepipeds with or without periodic boudary conditions.   
-
-The next challenge is to measure the ligament size, which is one of the most important characteristics of these structures. The prevalent method to measure such quantity is to take slices from the 3D structure and use tools for 2D pictures, such as Aquami [2], measuring the ligament size in 2D. Several slices along different directions would be take and the average ligament distribution would indicate the overal ligament size. This project aims to 3D skeletonization [1] and distance map on the target structure. The combination of this two transforms will dictate accurately the ligament size distribution.  
-
+- Project any 3D structure obtained from experiments, in the form of voxel, VTK file or others, into structure at atomic scale with desired crystal lattice. 
+- Use MD simulation to relax and perform mechanical tests on it.
+- Analyze the morphology including curvatures, normals and genus, change after the simulation. 
+   
 ### Methods and Algorithm
-- The leveled field method is efficiently realized by using OpenMPI. 
-- To determine the ligament size, the multiplication of distance map transformation and skeletonization using 3D digital thinning technique is the key.
+- Atomic Structure is seperated into surface atoms and internal atoms.
+- Normal direction can be found summing all the vectors pointing from internal atoms around certain surface atoms within a cutoff.  
+- Normal direction can be used to evaluate how many atoms needed to measure curvature.  
+- Curvatures are found by fitting a bivariate [] or a quadratic surface []. 
+- Genus is calculated from faces and edges of surface mesh. 
+- Paralled computing can achieved by spatial decomposition.
 
 ### Expected Results
-1. Bicontinuous structrue in arbitary parallelepiped with controllable topological and geometrical featrues.
-2. Skeleton of 3D bicontinuous structure without change of topological information.
-3. Distance Map of 3D bicontinuos structure.
-4. Ligament size distribution. 
+1. Atomic structures from experiments.
+2. Normal direction distribution of structure. 
+3. Principle curvature distribution of structure.
+4. Genus 
 
 ### Reference
 [1]: Lee, Ta-Chih, Rangasami L. Kashyap, and Chong-Nam Chu. "Building skeleton models via 3-D medial surface axis thinning algorithms." CVGIP: Graphical Models and Image Processing 56.6 (1994): 462-478.

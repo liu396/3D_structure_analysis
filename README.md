@@ -32,6 +32,13 @@ Suyue Yuan (suyueyua@usc.edu)
 ![Image of Curvature](https://github.com/liu396/CS653/blob/master/45RD_matrix.png)
 4. Genus 
 
+### Some results
+1.The atomic model of obtained from experimental sample:
+
+2.The curvature distribution of the above sample: 
+![Image of Curvature](https://github.com/liu396/CS653/blob/master/new_md_curvature.png)
+
+
 ### Reference
 [1]: Yokoya, N. and Levine, M.D., 1989. Range image segmentation based on differential geometry: A hybrid approach. IEEE Transactions on Pattern Analysis and Machine Intelligence, 11(6), pp.643-649.
 

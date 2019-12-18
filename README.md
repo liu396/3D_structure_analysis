@@ -34,6 +34,7 @@ Suyue Yuan (suyueyua@usc.edu)
 
 ### Some results
 1.The atomic model of obtained from experimental sample:
+![Image of Curvature](https://github.com/liu396/CS653/blob/master/nanoporous_MG.png)
 
 2.The curvature distribution of the above sample: 
 ![Image of Curvature](https://github.com/liu396/CS653/blob/master/new_md_curvature.png)

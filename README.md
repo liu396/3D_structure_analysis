@@ -1,5 +1,4 @@
-# CSCI-653 Project
-## 3D Atomic Structure Projection, MD Simulation and Analysis
+# 3D Atomic Structure Projection, MD Simulation and Analysis
 - This project aims to measure the geometric characteristic value, curvatures, normals and genus of atomic structure after MD simulation. 
 
 ## **Project Member** ##
